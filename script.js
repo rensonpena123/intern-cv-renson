@@ -27,7 +27,7 @@ setupToggle('hide-edu-button', 'edu-content', 'Education');
 setupToggle('hide-exp-button', 'exp-content', 'Experience');
 setupToggle('hide-skills-button', 'skills-content', 'Technical Skills');
 
-// Greting 
+// Greeting 
 window.onload = function() {
     alert("Welcome to Renson Peña's Portfolio! Thank you for visiting.");
 };
