@@ -41,6 +41,7 @@ nav a {
     text-decoration: none;
     padding: 10px 15px;
     color: white;
+    border-radius: 10px;
     background-color: #213C51;
 }
 
@@ -58,4 +59,48 @@ footer p {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+/* Dark Theme Styles */
+body.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.theme-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.theme-button {
+    border: none;
+    padding: 20px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.theme-button:hover {
+    background-color:#2563eb;
+}
+
+/* Hidden Section Styles */
+.hidden {
+    display: none;
+}
+
+#skillsSection {
+    transition: opacity 0.5s ease;
+}
+
+.hide-btn{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #213C51;
+    border-radius: 5px;
 }

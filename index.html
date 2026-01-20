@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    
+
     <header id="home">
         <h1>Renson G. Peña: Intern Web Developer</h1>
     </header>
@@ -22,7 +22,12 @@
     </nav>
 
     <main>
+        <div class="theme-button-container">
+            <button id="themeButton" class="theme-button">Click Me to Change Theme!</button> 
+        </div>
         <section>
+            <button id="hide-about-button" class="hide-btn">Hide My Skills Section</button>
+            <div id="about-content">
             <h2 id="about">About Me</h2>
             <article>
                 <p>
@@ -31,27 +36,36 @@
                     create real solutions for real-world problems.
                 </p>
             </article>
+            </div>
         </section>
 
         <section>
+            <button id="hide-edu-button" class="hide-btn">Hide Education</button>
+            <div id="edu-content">
             <h2>Educational Background</h2>
             <article>
                 <h3>Bachelor of Science in Information Technology</h3>
                 <h4>De La Salle Lipa</h4>
                 <p>2022 - present</p>
             </article>
+        </div>
         </section>
 
         <section>
+            <button id="hide-exp-button" class="hide-btn">Hide Experience</button>
+            <div id="exp-content">
             <h2>Experience</h2>
             <article>
                 <h3>Intern Web Developer</h3>
                 <h4>Highly Succeed, Inc</h4>
                     <p>2026 - present</p>
             </article>
+            </div>
         </section>
 
         <section>
+            <button id="hide-skills-button" class="hide-btn">Hide Technical Skills</button>
+            <div id="skills-content">
             <h2>Technical Skills</h2>
             <ul>
                 <li>HTML</li>
@@ -63,6 +77,7 @@
                 <li>Dart</li>
                 <li>Git/GitHub</li>
             </ul>
+            </div>
         </section>
 
     </main>
@@ -72,5 +87,6 @@
         <a href="https://www.reddit.com">Reddit</a>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
