@@ -3,10 +3,6 @@ import carbon from '../assets/carbon.png';
 import bg1 from '../assets/bg-1.jpg';
 import { Button } from '../components/button';
 
-const skills = [
-    "C++", "HTML", "CSS", "JavaScript", "PHP", "Dart", "Flutter Framework", "React Framework", "Firebase", "MySQL", "Git/GitHub", "Power BI"
-]
-
 export const Top = () => {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -54,10 +50,10 @@ export const Top = () => {
                                 </span>
                             </h1>
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animate-delay-200">
-                                Im Renson Peña, a 4th-year BSIT student majoring in 
+                                Im <span className="text-primary font-bold text-xl">Renson Peña</span>, a 4th-year BSIT student majoring in 
                                 System Development at De La Salle Lipa. I am currently a 
                                 Software Developer Intern at Highly Succeed Inc., 
-                                where I build modern web applications using React and Node.js.
+                                where I build modern web applications using different langauges like React.Js.
                             </p>
                         </div>
 
@@ -100,22 +96,6 @@ export const Top = () => {
                             <div className="relative glass rounded-3xl p-2 glow-border">
                             <img src={carbon} alt="right-picture" className="w-full aspect-[4/5] object-cover rounded-2xl"/>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Skills */}
-                <div className="mt-20 animate-fade-in animate-delay-600">
-                    <p className="text-sm text-muted-foreground mb-6 text-center">Technologies I work with</p>
-                    <div className="relative overflow-hidden ">
-                        <div className="flex animate-marquee">
-                            {[...skills, ...skills].map((skill, index) => (
-                                <div key={index} className="flex-shrink-0 px-8 py-4 ">
-                                    <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
-                                        {skill}
-                                    </span>
-                                </div>
-                            ))}
                         </div>
                     </div>
                 </div>
