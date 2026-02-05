@@ -1,11 +1,14 @@
 import { ArrowRight, ArrowUpRight, Github } from "lucide-react";
+import Admin from "../assets/admin.jpg";
+import Scheduler from "../assets/scheduler.jpg";
+import POS from "../assets/POS.jpg";
 
 const projects = [
     {
         title: "B-Go Modern Jeepney Tracking App and Admin Dashboard",
         description:
         "A mobile application enables real-time tracking of modern jeepneys, providing location updates, and passenger count management to improve overall commuter experience. Admin Dashboard for ticket management and route monitoring to streamline operations. Developed using Flutter, Firebase, GPS, React.js ",
-        image: "/src/assets/admin.jpg",
+        image: Admin,
         tags: ["Flutter", "Firebase", "React.js"],
         github: "https://github.com/rensonpena123/b-go-capstone-admin"
     },
@@ -13,7 +16,7 @@ const projects = [
         title: "Appointment Scheduler Web App",
         description:
         "A web-based scheduling system designed to manage and display available appointment slots, allowing efficient organization of schedules. Used HTML and CSS for frontend. JavaScript and JSON for backend. ",
-        image: "/src/assets/scheduler.jpg",
+        image: Scheduler,
         tags: ["HTML", "CSS", "JavaScript" ],
         github: "https://github.com/rensonpena123/ITElectiveFinalProject"
     },
@@ -21,7 +24,7 @@ const projects = [
         title: "SQL-Driven POS for Local Eatery",
         description:
         "A web-based POS system that can revolutionize small restaurants by streamlining operations and minimizing mistakes. And the main goal is to offer an extensible and secure solution for small and medium-sized foodservice companies. Used PHPMyAdmin for database, PHP and JavaScript for backend, and HTML and CSS for frontend.",
-        image: "/src/assets/POS.jpg",
+        image: POS,
         tags: ["PHP", "JavaScript", "HTML", "CSS", "SQL"],
         github: "https://github.com/rensonpena123/Eatery_POS"
     }
